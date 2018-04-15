@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/gobinath/Private/Calculator-F/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/gobinath/Private/Calculator-F/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gobinath/Private/Professional/Suventure/Calculator/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/gobinath/Private/Professional/Suventure/Calculator/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]
