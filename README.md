@@ -1,4 +1,4 @@
-# Caculator
+# Calculator
 Simple four function calculator without eval.
 
 ## Installation Steps
