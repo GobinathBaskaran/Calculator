@@ -1,0 +1,753 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "email": "patient",
+            "password": "1234",
+            "userType": "Patient"
+        },
+        {
+            "id": 2,
+            "email": "doctor",
+            "password": "1234",
+            "userType": "Doctor"
+        }
+    ],
+    "patients": [
+        {
+            "id": 1,
+            "name": "James",
+            "user_id": 1
+        }
+    ],
+    "doctors": [
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Williams",
+            "specialist":"Neurology",
+            "slots": [
+                {
+                    "time": "6:00PM",
+                    "isScheduled": true
+                },
+                {
+                    "time": "6:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:00PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "7:30PM",
+                    "isScheduled": false
+                },
+                {
+                    "time": "8:00PM",
+                    "isScheduled": false
+                }
+            ],
+            "user_id": 2
+        }
+    ]
+}

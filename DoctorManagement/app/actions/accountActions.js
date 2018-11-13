@@ -1,16 +1,9 @@
-export const login = (username, password) => {
-    return {
-        type: 'LOGIN',
-        username,
-        password
-    }
-}
+import { LOGIN, LOGOUT } from './actionTypes';
 
-export const login = (username, password) => {
-    return (dispatch) => {
-        return fetch('').then(() => {
-            return 0;
-        },
-            (err) => err);
+export const login = (email, password) => {
+    return {
+        type: LOGIN,
+        email,
+        password
     }
 }
