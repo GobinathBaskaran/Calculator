@@ -3,6 +3,7 @@ import { View, StyleSheet, Text, TextInput, TouchableOpacity } from 'react-nativ
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { login } from '../actions/accountActions';
+import fileSystem from 'react-native-fs';
 
 class Login extends Component {
     constructor(props) {
@@ -16,6 +17,7 @@ class Login extends Component {
 
     authenticate = () => {
         let { email, password } = this.state;
+        // TODO: Validation
         if (email && password) {
             this.props.login(email, password);
             this.props.navigation.navigate('Home')
