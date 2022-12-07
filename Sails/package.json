@@ -9,11 +9,11 @@
     "async": "2.0.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
-    "sails": "^1.0.2",
+    "sails": "^1.5.3",
     "sails-hook-babel": "^6.0.3",
     "sails-hook-orm": "^2.0.0-16",
     "sails-hook-sockets": "^1.4.0",
-    "sails-mongo": "^1.0.1"
+    "sails-mongo": "^2.0.0"
   },
   "devDependencies": {
     "@sailshq/eslint": "^4.19.3"
